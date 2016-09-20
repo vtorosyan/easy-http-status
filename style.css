@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+}
+
+.vertical-center {
+    min-height: 100%;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.jumbotron.vertical-center {
+    margin-top: 20%;
+    margin-left: 15%;
+    width: 70%;
+    height: 30%;
+}
+
+.row.bottom-padding {
+    margin-bottom: 5px;
+}
+
+.row.extra-bottom-padding {
+    margin-bottom: 20px;
+}
