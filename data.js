@@ -3,7 +3,7 @@ window.data = {
 	"question" : "Is there a problem with the request?",
 	"no" : {
 		"id" : 2,
-		"question" : "Is there a server-side side problem?",
+		"question" : "Is there a server-side problem?",
 		"no" : {
 			"id" : 3,
 			"question" : "Am I implementing a web server?",
