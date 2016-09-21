@@ -30,6 +30,7 @@ html, body {
     margin-left: 15%;
     width: 70%;
     height: 30%;
+    background-color: white;
 }
 
 .row.bottom-padding {
@@ -38,4 +39,8 @@ html, body {
 
 .row.extra-bottom-padding {
     margin-bottom: 20px;
+}
+
+.btn.start {        
+    width: 25%;
 }

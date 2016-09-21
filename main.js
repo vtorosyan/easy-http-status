@@ -9,16 +9,20 @@
         data: {
             currentItem: rootQuestion,
             answer: null,
-            hasPrevious: null
+            hasPrevious: null,
+            isIntroduction: true
         },
         hasNext: function() {
             return this.get('currentItem')['yes'] || this.get('currentItem')['no'];
         }
     });
 
+    app.on('start', function (event, current) {
+        this.set({isIntroduction: false});
+    });
+
     app.on('answer-yes', function (event, current) {
         var next = current['yes'];
-
         if (next['yes']) {
             if (app.hasNext()) {
                 stack.push(this.get('currentItem'));
