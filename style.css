@@ -42,5 +42,6 @@ html, body {
 }
 
 .btn.start {        
-    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
