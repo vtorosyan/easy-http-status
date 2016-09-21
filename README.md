@@ -1,6 +1,6 @@
 # Easy HttpStatus
 
-Easy HttpStatus is designated to make choosing an HTTP status for RESTful APIs easy. By answering to simple questions with Yes or No it gives you the status code with a short description which can/should be used.
+Easy HttpStatus is designated to make choosing an HTTP status for RESTful APIs easy. By answering to the simple questions with Yes or No, it gives you the status code with a short description which can/should be used.
 
 ### Available at
 http://vtorosyan.github.io/easy-http-status/
