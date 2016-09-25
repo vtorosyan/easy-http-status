@@ -5,7 +5,7 @@ Easy HttpStatus is designated to make choosing an HTTP status for RESTful APIs e
 ### Available at
 http://vtorosyan.github.io/easy-http-status/
 
-### Written with
+### Written in
 [ractive.js](http://www.ractivejs.org/)
 
 ### Used resources
@@ -29,6 +29,10 @@ Some HTTP statuses are not available yet. Here is the complete list of those.
 - [499](https://httpstatuses.com/499)
 - [506](https://httpstatuses.com/506)
 - [599](https://httpstatuses.com/599)
+
+### Additional notes
+- The source code of the hosted program is not synced with the source code in this repo. It is available [here](https://github.com/vtorosyan/vtorosyan.github.io/tree/master/easy-http-status).
+- Public [gist](https://gist.github.com/vtorosyan/49765f9e1b0a4833ace46a7f04b92f89) is available with the JSON data holding HTTP Statuses, questions and answers.
 
 ### Inspired from 
 There is a great blog [post](http://racksburg.com/choosing-an-http-status-code/) where from the idea came and some of the questions have been also used from that source.
