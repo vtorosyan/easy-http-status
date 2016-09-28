@@ -171,6 +171,7 @@ window.data = {
 					"question" : "Is it the same resource at a new location?",
 					"no" : {
 						"id" : 49,
+						"question" : "Has request been fulfilled and new resource created?"
 						"no" : {
 							"id" : 50,
 							"question" : null,
